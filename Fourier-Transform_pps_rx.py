@@ -46,7 +46,6 @@ filtered_sig = sp.fftpack.ifft(high_freq_fft)
 fig, ax = plt.subplots(1, 1, figsize=(18, 6))
 df.plot(ax=ax, lw=.5)
 ax.plot_date(date, filtered_sig, '-')
-
 ax.set_xlabel('Date')
 ax.set_ylabel('Utilisation pps Rx')
 plt.show()
