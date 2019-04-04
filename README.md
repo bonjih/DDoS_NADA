@@ -15,13 +15,14 @@ Chaos Theory assumes that ‘normal’ traffic patterns are chaotic in nature, t
 
 Due to this fact, and the traffic shape being sinusoidal in form and the traffic shape being ‘similar’ in form over a monthly average, a Fast Fourier Transform (FFT) is used to represent the time-dependent incoming signal. A computation is made on its period (determine the parodic function as y=f(t) - ( T=2π and freq=1/2π H). These forms are then learnt and stored as typical traffic patterns using Machine Learning.  
 
-![Figure_3](https://user-images.githubusercontent.com/37001472/55590668-dbfc1900-5776-11e9-872a-558069df93da.png)
+![Figure_4](https://user-images.githubusercontent.com/37001472/55590827-57f66100-5777-11e9-93f3-6e17d1bdf0a1.png)
 
-Normal traffic profile
+                            Figure 1 – Firewall external traffic shape over 1 week
+                            
 
 ![Capture](https://user-images.githubusercontent.com/37001472/55590492-66904880-5776-11e9-8e01-7ca622d97589.PNG)
 
-DDoS attack profile
+                                        Figure 2 – DDoS attack profile
 
 
 
