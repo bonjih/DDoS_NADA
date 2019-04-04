@@ -29,8 +29,6 @@ i = np.where(fftfreq > 0)
 freqs = fftfreq[i]
 peak_freq = freqs[pps_psd [i].argmax()]
 
-print(peak_freq)
-
 #lot the power spectral density
 fig, ax = plt.subplots(1, 1, figsize=(8, 4))
 ax.plot(fftfreq[i], 10 * np.log10(pps_psd[i]))

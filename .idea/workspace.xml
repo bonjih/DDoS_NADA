@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41eee700-4210-47f6-b545-a7c10cc8e3e5" name="Default" comment="fixed FFT epoch dates">
-      <change beforePath="$PROJECT_DIR$/data/test_pps_rx.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_pps_rx_Lyap.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -401,7 +400,28 @@
       <option name="project" value="LOCAL" />
       <updated>1554354453703</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated data dir">
+      <created>1554354970947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554354970947</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed FFT epoch dates">
+      <created>1554355122544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554355122545</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed FFT epoch dates">
+      <created>1554355226170</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554355226170</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -452,6 +472,7 @@
       <path value="$PROJECT_DIR$/DDoS_NADA" />
     </ignored-roots>
     <MESSAGE value="addedd LSTM" />
+    <MESSAGE value="updated data dir" />
     <MESSAGE value="fixed FFT epoch dates" />
     <option name="LAST_COMMIT_MESSAGE" value="fixed FFT epoch dates" />
   </component>
