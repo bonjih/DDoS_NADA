@@ -11,10 +11,6 @@ The objective of this project is to create a novel detection and prediction meth
 
 This DDoS Detection Algorithm is based on Pre-processing of the network traffic and then find a predicted method using Chaos Theory and Neural Network as detail in Yonghong 2013 and Chonka et al. 2009, and many other works. 
 
-Chaos Theory assumes that ‘normal’ traffic patterns are chaotic in nature, therefore abnormal traffic patterns are non-chaotic. Normally, when traffic trends toward a non-chaotic state i.e. traffic goes exponential, a DDoS attacked is said to be imminent. In our case, and when the DDoS attack was underway, it was observed that the traffic did not trend up as expected, i.e. the traffic did not transition from a normal chaotic state to a none chaotic state with exponential traffic. 
+Chaos Theory assumes that ‘normal’ traffic patterns are chaotic in nature, therefore abnormal traffic patterns are non-chaotic. Normally, when traffic trends toward a non-chaotic state the traffic goes exponential, a DDoS attacked is said to be imminent. In our case, and when the DDoS attack was underway, it was observed that the traffic did not trend to exponential. 
 
-
-
-
-
-Due to this fact, and the traffic shape being sinusoidal in form and the traffic shape being ‘similar’ in form over a monthly average, a Fast Fourier Transform (FFT) is used to represent the time-dependent incoming signal, then compute its amplitude and period (determine the parodic function as y=f(t) - ( T=2π and freq=1/2π H). These forms are then learnt and stored as typical traffic patterns using Machine Learning. Additionally, the traffic patterns of the DDoS attack are feed through a FFT for analysis. Figure 4 shows the COGC DDoS period in the red square
+Due to this fact, and the traffic shape being sinusoidal in form and the traffic shape being ‘similar’ in form over a monthly average, a Fast Fourier Transform (FFT) is used to represent the time-dependent incoming signal. A computation is made on its period (determine the parodic function as y=f(t) - ( T=2π and freq=1/2π H). These forms are then learnt and stored as typical traffic patterns using Machine Learning.  
