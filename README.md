@@ -14,3 +14,14 @@ This DDoS Detection Algorithm is based on Pre-processing of the network traffic 
 Chaos Theory assumes that ‘normal’ traffic patterns are chaotic in nature, therefore abnormal traffic patterns are non-chaotic. Normally, when traffic trends toward a non-chaotic state the traffic goes exponential, a DDoS attacked is said to be imminent. In our case, and when the DDoS attack was underway, it was observed that the traffic did not trend to exponential. 
 
 Due to this fact, and the traffic shape being sinusoidal in form and the traffic shape being ‘similar’ in form over a monthly average, a Fast Fourier Transform (FFT) is used to represent the time-dependent incoming signal. A computation is made on its period (determine the parodic function as y=f(t) - ( T=2π and freq=1/2π H). These forms are then learnt and stored as typical traffic patterns using Machine Learning.  
+
+![Figure_3](https://user-images.githubusercontent.com/37001472/55590668-dbfc1900-5776-11e9-872a-558069df93da.png)
+
+Normal traffic profile
+
+![Capture](https://user-images.githubusercontent.com/37001472/55590492-66904880-5776-11e9-8e01-7ca622d97589.PNG)
+
+DDoS attack profile
+
+
+
