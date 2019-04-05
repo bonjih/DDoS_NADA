@@ -26,9 +26,10 @@ fftfreq = sp.fftpack.fftfreq(len(pps_psd), 1 / 31) #original unit is a month
 
 # Find the peak frequency, only the positive frequencies
 i = np.where(fftfreq > 0)
+
 freqs = fftfreq[i]
 peak_freq = freqs[pps_psd [i].argmax()]
-
+print(peak_freq)
 #lot the power spectral density
 fig, ax = plt.subplots(1, 1, figsize=(8, 4))
 ax.plot(fftfreq[i], 10 * np.log10(pps_psd[i]))
@@ -40,10 +41,13 @@ high_freq_fft = pps_fft.copy()
 high_freq_fft[np.abs(fftfreq) > peak_freq] = 0
 filtered_sig = sp.fftpack.ifft(high_freq_fft)
 
+
 # filtered_sig = np.real(sp.fftpack.ifft(pps_fft_bis))
 fig, ax = plt.subplots(1, 1, figsize=(18, 6))
 df.plot(ax=ax, lw=.5)
 ax.plot_date(date, filtered_sig, '-')
+ax.set_ylim(0, 50000)
 ax.set_xlabel('Date')
 ax.set_ylabel('Utilisation pps Rx')
+plt.legend(['Original Sig', 'Filtered Sig'])
 plt.show()
