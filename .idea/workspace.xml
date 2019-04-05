@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41eee700-4210-47f6-b545-a7c10cc8e3e5" name="Default" comment="fixed FFT epoch dates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fourier-Transform_pps_rx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fourier-Transform_pps_rx.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +64,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fourier-Transform_pps_rx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#2#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_37.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="606">
+              <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="21" />
               <folding>
                 <element signature="e#1#16#0" expanded="true" />
               </folding>
@@ -97,6 +101,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ben Hamitlon" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -115,10 +124,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3825" />
-    <option name="y" value="154" />
-    <option name="width" value="1920" />
-    <option name="height" value="1027" />
+    <option name="x" value="3162" />
+    <option name="y" value="450" />
+    <option name="width" value="1932" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,7 +157,7 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -421,18 +430,33 @@
       <option name="project" value="LOCAL" />
       <updated>1554355226170</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed FFT epoch dates">
+      <created>1554355605282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554355605282</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed FFT epoch dates">
+      <created>1554427310684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554427310684</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3832" y="0" width="1936" height="1056" extended-state="6" />
+    <frame x="3832" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16807166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16807166" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70706004" visible="true" weight="0.18959913" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.70706004" visible="true" weight="0.25785482" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,6 +499,7 @@
     <MESSAGE value="updated data dir" />
     <MESSAGE value="fixed FFT epoch dates" />
     <option name="LAST_COMMIT_MESSAGE" value="fixed FFT epoch dates" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DDoS_ARMA.py" />
@@ -528,8 +553,8 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_37.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="606">
+          <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="21" />
           <folding>
             <element signature="e#1#16#0" expanded="true" />
           </folding>
@@ -538,8 +563,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fourier-Transform_pps_rx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#2#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
