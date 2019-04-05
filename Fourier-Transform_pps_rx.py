@@ -9,13 +9,11 @@ df = pd.read_csv('data/test_pps_rx_1_month_epoch.csv', usecols=['Date','Utilisat
 
 df['Date'] = pd.to_datetime(df.Date, unit='s')
 df.set_index('Date',inplace=True)
-df_sum = df.dropna().groupby('Date').sum()
-
+df_sum = df.dropna()
 date = pd.to_datetime(df.index)
-
 df = (df_sum['Utilisation pps Rx'])
 
-N = len(df)
+# N = len(df)
 
 fig, ax = plt.subplots(1, 1, figsize=(6, 3))
 df.plot(ax=ax, lw=.5)
