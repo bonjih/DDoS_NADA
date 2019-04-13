@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41eee700-4210-47f6-b545-a7c10cc8e3e5" name="Default" comment="added images">
+    <list default="true" id="41eee700-4210-47f6-b545-a7c10cc8e3e5" name="Default" comment="added DDoS FFT profile">
+      <change afterPath="$PROJECT_DIR$/DDOS_Fourier-Transform_pps_rx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fourier-Transform_pps_rx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fourier-Transform_pps_rx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Box_Transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/Box_Transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fourier-Transform_pps_rx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Normal_Fourier-Transform_pps_rx.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,23 +51,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Box_Transform.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="17">
+              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Normal_Fourier-Transform_pps_rx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Fourier-Transform_pps_rx.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DDOS_Fourier-Transform_pps_rx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_37.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
+            <state relative-caret-position="603">
               <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="21" />
               <folding>
                 <element signature="e#1#16#0" expanded="true" />
@@ -108,6 +122,7 @@
       <find>temp_fft</find>
       <find>dt</find>
       <find>sv4</find>
+      <find>pps_fft_bis</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,19 +139,20 @@
         <option value="$PROJECT_DIR$/Yeo-Johnson_Transform.py" />
         <option value="$PROJECT_DIR$/Data_Transform.py" />
         <option value="$PROJECT_DIR$/DDoS_ARMA.py" />
-        <option value="$PROJECT_DIR$/Box_Transform.py" />
         <option value="$PROJECT_DIR$/Rolling_ ARIMA_Model.py" />
         <option value="$PROJECT_DIR$/Lyapunov_Exponent.py" />
         <option value="$PROJECT_DIR$/LSTM_Windows_Regress.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_37.py" />
         <option value="$USER_HOME$/Documents/USC/ICT 342 - Industry Project/Task 2/ETL_Python/etl.py" />
         <option value="$PROJECT_DIR$/Fourier-Transform_pps_rx.py" />
+        <option value="$PROJECT_DIR$/Normal_Fourier-Transform_pps_rx.py" />
+        <option value="$PROJECT_DIR$/DDOS_Fourier-Transform_pps_rx.py" />
+        <option value="$PROJECT_DIR$/Box_Transform.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5306" />
-    <option name="y" value="145" />
+    <option name="x" value="3832" />
     <option name="width" value="1288" />
     <option name="height" value="331" />
   </component>
@@ -182,9 +198,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Fourier-Transform_pps_rx">
-    <configuration name="Data_Transform" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DDoS_ARIMA" />
+  <component name="RunManager" selected="Python.Box_Transform">
+    <configuration name="Box_Transform" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DDoS_NADA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -195,7 +211,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Transform.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Box_Transform.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DDOS_Fourier-Transform_pps_rx" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DDoS_NADA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DDOS_Fourier-Transform_pps_rx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +253,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fourier-Transform_pps_rx.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ben.hamilton\PycharmProjects\DDoS_NADA\Normal_Fourier-Transform_pps_rx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,8 +283,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lyapunov_Exponent" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DDoS_ARIMA" />
+    <configuration name="Normal_Fourier-Transform_pps_rx" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DDoS_NADA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -258,28 +295,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lyapunov_Exponent.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Rolling_ ARIMA_Model" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DDoS_ARIMA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rolling_ ARIMA_Model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Normal_Fourier-Transform_pps_rx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -397,19 +413,19 @@
     <list>
       <item itemvalue="Python.Fourier-Transform_pps_rx" />
       <item itemvalue="Python.scratch_37" />
-      <item itemvalue="Python.Data_Transform" />
-      <item itemvalue="Python.Rolling_ ARIMA_Model" />
-      <item itemvalue="Python.Lyapunov_Exponent" />
       <item itemvalue="Python.LSTM_Windows_Regress" />
       <item itemvalue="Python.etl" />
+      <item itemvalue="Python.DDOS_Fourier-Transform_pps_rx" />
+      <item itemvalue="Python.Normal_Fourier-Transform_pps_rx" />
+      <item itemvalue="Python.Box_Transform" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Box_Transform" />
+        <item itemvalue="Python.DDOS_Fourier-Transform_pps_rx" />
+        <item itemvalue="Python.Normal_Fourier-Transform_pps_rx" />
         <item itemvalue="Python.etl" />
         <item itemvalue="Python.LSTM_Windows_Regress" />
-        <item itemvalue="Python.Lyapunov_Exponent" />
-        <item itemvalue="Python.Rolling_ ARIMA_Model" />
-        <item itemvalue="Python.Data_Transform" />
       </list>
     </recent_temporary>
   </component>
@@ -501,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554441445219</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added DDoS FFT profile">
+      <created>1555117413226</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555117413226</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -514,8 +537,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="5752" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="3832" y="0" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16807166" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -567,8 +589,20 @@
     <MESSAGE value="changed to_datetime syntax to pandas 0.24.2" />
     <MESSAGE value="removed groupby" />
     <MESSAGE value="added images" />
-    <option name="LAST_COMMIT_MESSAGE" value="added images" />
+    <MESSAGE value="added DDoS FFT profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="added DDoS FFT profile" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Normal_Fourier-Transform_pps_rx.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DDoS_ARMA.py" />
@@ -600,26 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Box_Transform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_37.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="21" />
-          <folding>
-            <element signature="e#1#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/USC/ICT 342 - Industry Project/Task 2/ETL_Python/etl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -640,10 +654,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fourier-Transform_pps_rx.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_37.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="603">
+          <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Normal_Fourier-Transform_pps_rx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDOS_Fourier-Transform_pps_rx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Box_Transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>

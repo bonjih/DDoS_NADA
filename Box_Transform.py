@@ -13,7 +13,7 @@ from matplotlib import pyplot
 # dataset gives Lambda: 0.205324, need to work out if log or sqr is the best
 
 
-series = Series.from_csv('data/test_pps_rx.csv', header=0)
+series = Series.from_csv('data/test_pps_rx_1_month_epoch.csv', header=0)
 
 dataframe = DataFrame(series.values)
 dataframe.columns = ['Utilisation pps Rx']
