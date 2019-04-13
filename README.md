@@ -22,7 +22,7 @@ Due to this fact, and the traffic shape being sinusoidal in form and the traffic
 
 ![Capture](https://user-images.githubusercontent.com/37001472/55590492-66904880-5776-11e9-8e01-7ca622d97589.PNG)
 
-                                        Figure 2 – DDoS attack profile, high traffic period should be in the middle
+                            Figure 2 – DDoS attack profile, high traffic period should be in the middle
 
 
 
