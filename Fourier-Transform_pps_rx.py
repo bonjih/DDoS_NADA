@@ -5,7 +5,8 @@ import scipy.fftpack
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('data/test_pps_rx_1_month_epoch.csv', usecols=['Date','Utilisation pps Rx'], na_values=(0), parse_dates=['Date'])
+df = pd.read_csv('data/test_pps_rx_DDOS_epoch.csv', usecols=['Date', 'Utilisation pps Rx'], na_values=(0),
+                 parse_dates=['Date'])
 
 df['Date'] = pd.to_datetime(df.Date, unit='s')
 df.set_index('Date',inplace=True)
