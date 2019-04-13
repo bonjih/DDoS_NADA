@@ -33,8 +33,10 @@ freqs = fftfreq[i]
 peak_freq = freqs[pps_psd [i].argmax()]
 
 print(pps_psd)
-print(fftfreq)
-print(peak_freq)
+# print()
+# print(fftfreq)
+# print()
+# print(peak_freq)
 
 # An inner plot to show the peak frequency
 # axes = plt.axes([0.55, 0.3, 0.3, 0.5])

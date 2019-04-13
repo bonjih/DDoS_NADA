@@ -1,5 +1,6 @@
 from pandas import Series
 from pandas import DataFrame
+import pandas as pd
 from scipy.stats import boxcox
 from matplotlib import pyplot
 
@@ -13,19 +14,22 @@ from matplotlib import pyplot
 # dataset gives Lambda: 0.205324, need to work out if log or sqr is the best
 
 
-series = Series.from_csv('data/test_pps_rx_1_month_epoch.csv', header=0)
+df = pd.read_csv('data/test_pps_rx_1_month_epoch.csv')
 
-dataframe = DataFrame(series.values)
-dataframe.columns = ['Utilisation pps Rx']
-dataframe['Utilisation pps Rx'] = boxcox(dataframe['Utilisation pps Rx'], lmbda=0.5)
+series = pd.Series(df['Utilisation pps Rx'])
+
+df = DataFrame(series.values)
+df.columns = ['Utilisation pps Rx']
+df['Utilisation pps Rx'] = boxcox(df['Utilisation pps Rx'], lmbda=0.5)
+
 
 # dataframe['Utilisation pps Rx'], lam = boxcox(dataframe['Utilisation pps Rx'])
 # print('Lambda: %f' % lam)
 pyplot.figure(1)
 # line plot
 pyplot.subplot(211)
-pyplot.plot(dataframe['Utilisation pps Rx'])
+pyplot.plot(df['Utilisation pps Rx'])
 # histogram
 pyplot.subplot(212)
-pyplot.hist(dataframe['Utilisation pps Rx'])
+pyplot.hist(df['Utilisation pps Rx'])
 pyplot.show()
