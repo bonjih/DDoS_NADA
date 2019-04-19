@@ -9,7 +9,7 @@ All internal generated traffic could not access the internet / external services
 
 ![Capture](https://user-images.githubusercontent.com/37001472/56445038-9dea2200-633e-11e9-91c5-7fec3b8fd77c.PNG)
 
-Figure 1 – DDoS via multiple login and fail attempts
+                              Figure 1 – DDoS via multiple login and fail attempts
 
 The objective of this project is to create a novel detection and prediction method against DDoS attacks by using chaotic and traffic analysis on real-time traffic at the firewall. To meet the objective, a combination of well-known and implemented techniques are used, which includes Fast Fourier Transform (FFT). The outcome of the techniques will result in a Network Anomaly Detection Algorithm (NADA) for DDoS prediction.
 
