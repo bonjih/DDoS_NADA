@@ -27,7 +27,7 @@ from sklearn.metrics import mean_squared_error
 # def custom_parser(s):
 #     return pd.datetime.strptime(s, '%d %H:%M')
 
-dataframe = pd.read_csv('data/test_pps_rx.csv', index_col='Date')
+dataframe = pd.read_csv('data/test_pps_rx_1_week_epoch.csv', index_col='Date')
 dataset = dataframe.fillna(method = 'ffill')
 
 

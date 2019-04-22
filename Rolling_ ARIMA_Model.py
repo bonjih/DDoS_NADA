@@ -4,9 +4,7 @@ from matplotlib import pyplot
 from statsmodels.tsa.arima_model import ARIMA
 from sklearn.metrics import mean_squared_error
 
-
-
-series = read_csv('data/test_pps_rx.csv', header=0, parse_dates=[0], index_col=0, squeeze=True)
+series = read_csv('data/test_pps_rx_1_week_epoch.csv', header=0, parse_dates=[0], index_col=0, squeeze=True)
 X = series.values
 size = int(len(X) * 0.66)
 train, test = X[0:size], X[size:len(X)]
