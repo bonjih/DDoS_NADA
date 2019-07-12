@@ -4,8 +4,8 @@ from sklearn.preprocessing import MinMaxScaler
 from scipy.stats import kurtosis, skew, gmean, tstd
 import numpy as np
 
-df = pd.read_csv('data/test_pps_rx_DDOS_epoch.csv', usecols=['Utilisation pps Rx'])
-# df = pd.read_csv('data/test_pps_rx_1_month_epoch.csv', usecols=['Utilisation pps Rx'])
+# df = pd.read_csv('data/test_pps_rx_DDOS_epoch.csv', usecols=['Utilisation pps Rx'])
+df = pd.read_csv('data/test_pps_rx_1_month_epoch.csv', usecols=['Utilisation pps Rx'])
 
 print('gMean :', gmean(df))
 print('tStd :', tstd(df))

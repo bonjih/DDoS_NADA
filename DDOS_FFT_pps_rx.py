@@ -62,7 +62,6 @@ pps_fft = sp.fftpack.fft(normalized)
 pps_psd = np.abs(pps_fft) ** 2  # square absolute value get the PSD
 fftfreq = sp.fftpack.fftfreq(len(pps_psd), 1 / 10)  # original unit is a month
 
-
 # Find the peak frequency, only the positive frequencies
 i = np.where(fftfreq > 0)
 freqs = fftfreq[i]

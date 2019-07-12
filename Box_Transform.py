@@ -14,8 +14,8 @@ from matplotlib import pyplot
 # DDoS dataset gives Lambda: 0.243116
 # Normal dataset gives Lambda: 0.079326
 
-# df = pd.read_csv('data/test_pps_rx_DDOS_epoch.csv', usecols=['Utilisation pps Rx'])
-df = pd.read_csv('data/test_pps_rx_1_month_epoch.csv', usecols=['Utilisation pps Rx'])
+df = pd.read_csv('data/test_pps_rx_DDOS_epoch.csv', usecols=['Utilisation pps Rx'])
+# df = pd.read_csv('data/test_pps_rx_1_month_epoch.csv', usecols=['Utilisation pps Rx'])
 
 series = pd.Series(df['Utilisation pps Rx'])
 df = DataFrame(series.values)
